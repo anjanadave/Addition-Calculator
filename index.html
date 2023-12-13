@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Addition Calculator</h1>
+        <label for="number" class="label">Enter the first number: </label>
+        <input type="number" id="num1" class="one" name="number"><br>
+        <br>
+        <label for="number" class="label">Enter the second number: </label>
+        <input type="number" id="num2" class="one" name="number"><br>
+
+        <button onclick="addNumbers()">Calculate Sum</button>
+        <p id="result"></p>
+    </div>
+    <script>
+        function addNumbers() {
+            let num1 = parseFloat(document.getElementById("num1").value);
+            let num2 = parseFloat(document.getElementById("num2").value);
+
+            let sum = num1 + num2;
+
+            document.getElementById("result").innerHTML = "The sum of " + num1 + " and " + num2 + " is :  " + sum ;
+
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2f3542;
+}
+
+.main{
+    height: 60vh;
+    width: 50vw;
+    background-color: #fff;
+    margin-left: 400px;
+    margin-top: 150px;
+}
+h1{
+    padding-top: 50px;
+    padding-left: 70px;
+    font-size: 45px;
+}
+
+.label{
+    padding-left: 70px;
+    font-size: 25px; 
+}
+
+.one{
+    margin-top: 15px;
+    height: 5vh;
+    width: 15vw;
+    font-size: 20px;
+}
+
+button{
+    margin-left: 70px;
+    margin-top: 20px;
+    padding: 7px 20px 7px 20px;
+    font-size: 20px;
+}
+
+#result{
+    margin-left: 70px;
+    font-size: 25px;
+    margin-top: 15px;
+}
